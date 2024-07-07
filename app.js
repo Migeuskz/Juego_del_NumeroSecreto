@@ -55,8 +55,8 @@ condicionesIniciales()
 
 function generarNumeroSecreto() {
     let numeroGenerado = Math.floor(Math.random() * numeroMaximo) + 1
-    console.log('el numero generado es',numeroGenerado)
-    console.log('el arreglo es ', listaNumerosSorteados)
+    // console.log('el numero generado es',numeroGenerado)
+    // console.log('el arreglo es ', listaNumerosSorteados)
     // si ya sorteamos todos los numeros
     if(listaNumerosSorteados.length == numeroMaximo){
         asignarTextoElemento('p', 'haz completado el juego, has sorteado todos los numeros!')
